@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UTS_AKB_10117205</string>
+    <string name="profil">Profil</string>
+    <string name="kontak">Kontak</string>
+    <string name="daftar">Daftar Teman</string>
+    <string name="info">Tentang Aplikasi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

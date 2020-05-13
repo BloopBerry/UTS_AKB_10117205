@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:src="@drawable/a10117205"
+        android:layout_marginTop="37dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true">
+
+
+    </com.mikhaellopez.circularimageview.CircularImageView>
+    <TextView
+        android:id="@+id/tv_nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="300dp"
+        android:paddingRight="55dp"
+        android:layout_centerHorizontal="true"
+        android:text="NIM    : 10117205"
+        android:typeface="sans"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:text="Nama : Aldy Febriansyah"
+        android:typeface="sans"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <TextView
+        android:id="@+id/tv_deskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="400dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Saya merupakan seorang individu
+         yang terbiasa bersosialisasi, bertemu serta berkerja sama dengan orang baru itu hal biasa bagi saya. Hal menarik dari diri saya adalah sangat dikenal sebagai seorang pendengar yan
+        g baik untuk setiap orang yang ada di sekeliling saya."
+        android:typeface="sans"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+</RelativeLayout>

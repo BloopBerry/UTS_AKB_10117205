@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo6"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="70dp">
+
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="300dp"
+        android:text="Current Version 0.0.1"
+        android:typeface="sans"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <TextView
+        android:id="@+id/tv_info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="340dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="20dp"
+        android:typeface="sans"
+        android:text="Aplikasi ini bisa digunakan untuk menyimpan daftar teman anda dan kontak mereka"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+</RelativeLayout>
